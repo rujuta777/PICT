@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background2"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/please_contact"
+        android:text="Contact :"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="170dp"
+            android:layout_height="49dp"
+            android:layout_alignBottom="@+id/attvalue_pop"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="165dp"
+
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tx11"
+            android:layout_width="9dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+
+            android:gravity="center"
+            android:text=" : "
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/name_pop1"
+            android:layout_width="183dp"
+            android:layout_height="51dp"
+            android:layout_alignBottom="@+id/attvalue_pop"
+            android:layout_alignParentTop="true"
+
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mobile_pop"
+            android:layout_width="170dp"
+            android:layout_height="49dp"
+            android:layout_alignBottom="@+id/attvalue_pop"
+            android:layout_alignParentTop="true"
+
+
+            android:text="Contact "
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="9dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+
+            android:gravity="center"
+            android:text=" : "
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/contact_pop1"
+            android:layout_width="183dp"
+            android:layout_height="46dp"
+            android:layout_alignBottom="@+id/attvalue_pop"
+            android:layout_alignParentTop="true"
+
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
